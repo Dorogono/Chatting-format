@@ -7,15 +7,19 @@
 @import "component/nav.css";
 @import "component/friend-profile.css";
 @import "component/nav-bot.css";
+@import "component/media.css";
 
 @import "css/log-in.css";
 @import "css/friend-content.css";
 @import "css/chat-main.css";
 @import "css/more.css";
 @import "css/something.css";
+@import "css/setting.css";
+@import "css/chat-screen.css";
 
 body {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 a {

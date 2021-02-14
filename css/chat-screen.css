@@ -1,0 +1,210 @@
+.chat-screen-title {
+  position: fixed;
+  width: 100%;
+  top: -25px;
+  box-sizing: border-box;
+  background-color: var(--brown-color);
+  height: 100px;
+}
+.setting-column {
+  width: 33%;
+}
+.setting-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.setting-column:nth-child(2) {
+  text-align: center;
+  position: relative;
+  left: -25px;
+}
+.screen-icon2 {
+  margin-left: 15px;
+}
+.chat-screen-profile-name {
+  margin-top: 5px;
+}
+
+.chatting-date {
+  margin-top: 130px;
+  color: white;
+  background-color: var(--more-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+.chat-screen-profile {
+  padding: 0 20px;
+  display: flex;
+}
+
+.chat-screen-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.chat-screen-profile-txt {
+  display: flex;
+  flex-direction: column;
+  color: var(--white-color);
+}
+
+.chat-screen-profile-content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat-txt-content {
+  background-color: var(--white-color);
+  color: var(--brown-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 0 20px 20px 20px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.chat-txt-content-time {
+  opacity: 0.5;
+  margin: 0 10px;
+}
+
+.first-my-txt {
+  margin-top: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.my-txt-content {
+  border-top-right-radius: 0;
+  border-top-left-radius: 20px;
+  background-color: var(--yellow-color);
+}
+.mine-txt {
+  flex-direction: row-reverse;
+}
+
+.text-bar {
+  display: flex;
+  align-items: center;
+  background-color: var(--more-white);
+  padding: 0 10px;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.text-bar-plus {
+  width: 10%;
+}
+.text-bar input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  padding: 10px 20px;
+  font-size: 1.3em;
+  border-radius: 30px;
+  width: 90%;
+}
+.text-bar input:focus {
+  outline: none;
+}
+
+.text-bar-icon {
+  position: absolute;
+  right: 10px;
+}
+
+.text-bar button {
+  background: none;
+  border: none;
+}
+
+.text-bar button:focus {
+  outline: none;
+}
+
+.text-bar button i {
+  background-color: var(--yellow-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadein {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.chatting-date {
+  animation: fadein 0.8s linear forwards;
+}
+
+@keyframes text-fadein {
+  from {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.first-my-txt {
+  animation: text-fadein 0.8s linear forwards;
+  animation-delay: 0.8s;
+  transform: translateX(400px);
+}
+
+@keyframes last-fadein {
+  from {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.chat-screen-profile {
+  transform: translateX(-500px);
+  animation: last-fadein 0.8s linear forwards;
+  animation-delay: 1.6s;
+}
+.text-bar-icon,
+.text-bar-plus {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.text-bar:focus-within .text-bar-plus,
+.text-bar:focus-within .text-bar-icon {
+  opacity: 0;
+}
+
+.text-bar-main-input {
+  transition: all 0.5s linear;
+}
+
+.text-bar:focus-within input {
+  width: 98vw;
+  transform: translateX(-5%);
+}

@@ -49,7 +49,3 @@
   font-size: 0.5em;
   opacity: 0.5;
 }
-.friend-profile:hover {
-  border-radius: 20px;
-  box-shadow: 0 0 20px 0 var(--more-yellow);
-}
