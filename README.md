@@ -1,1 +1,2 @@
-This is just format of the chatting program.
+# Chatting-format
+making chatting program's format
