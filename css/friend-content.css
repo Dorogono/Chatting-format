@@ -1,0 +1,118 @@
+.friend-all {
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+.friend-top-nav-icon {
+  width: 150px;
+}
+.label-content {
+  color: var(--white-color);
+  margin-top: 20px;
+  border-top: 2px solid var(--more-brown);
+  border-bottom: 2px solid var(--more-brown);
+}
+#dream-list {
+  display: none;
+}
+.label-dreams {
+  display: none;
+  margin: 20px 0;
+}
+#dream-list:checked ~ .label-dreams {
+  display: flex;
+}
+.label-content label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  color: var(--white-color);
+}
+
+.label-content label:hover {
+  cursor: pointer;
+  color: var(--more-yellow);
+  font-size: 2em;
+}
+
+.label-dreams ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.dream-name-wrap a {
+  color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid var(--more-brown);
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: var(--more-brown);
+  height: 70px;
+}
+.dream-name-wrap a:hover {
+  color: var(--yellow-color);
+  font-size: 1.5em;
+}
+
+.dream-name {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.dream-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+}
+.dream-name-wrap a .fa-chevron-right {
+  margin: 0 10px;
+}
+
+.pic-one {
+  background-image: url("https://i.ytimg.com/vi/bH0-5bh3f-I/maxresdefault.jpg");
+  background-size: 300%;
+  background-position-x: -100px;
+  background-position-y: -5px;
+}
+.pic-two {
+  background-image: url("https://i.ytimg.com/vi/hdA-DLUZxkk/maxresdefault.jpg");
+  background-size: 300%;
+  background-position-x: -40px;
+  background-position-y: -5px;
+}
+.pic-three {
+  background-image: url("https://i.ytimg.com/vi/NKhtpsHxX0k/hqdefault.jpg");
+  background-size: 180%;
+  background-position-x: -25px;
+  background-position-y: -13px;
+}
+.pic-four {
+  background-image: url("https://i.pinimg.com/originals/f3/48/3a/f3483a2686e4d7dd00446ec9687df949.jpg");
+  background-size: 200%;
+  background-position-x: -30px;
+  background-position-y: -5px;
+}
+.pic-five {
+  background-image: url("https://wallpapermemory.com/uploads/686/mary-elizabeth-winstead-wallpaper-hd-4k-73058.jpg");
+  background-size: 400%;
+  background-position-x: -50px;
+  background-position-y: -15px;
+}
+
+.friend-nav-bot {
+  color: var(--white-color);
+}
+
+.friend-nav-bot-icon {
+  color: var(--more-white);
+}
+.friend-nav-bot-icon:hover {
+  color: var(--hover-color);
+}

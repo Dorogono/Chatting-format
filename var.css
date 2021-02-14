@@ -1,0 +1,11 @@
+:root {
+  --white-color: rgb(254, 254, 251);
+  --yellow-color: rgb(226, 177, 67);
+  --brown-color: rgb(74, 23, 30);
+  --more-white: rgba(254, 254, 251, 0.2);
+  --hover-color: rgba(254, 254, 251, 0.4);
+  --more-yellow: #f3b01f;
+  --more-brown: rgb(80, 43, 48);
+  --tree-color: #8e552a;
+  --dark-yellow: #64540a;
+}

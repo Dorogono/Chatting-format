@@ -1,0 +1,44 @@
+.nav-bot {
+  border-top: 1px solid var(--more-brown);
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--brown-color);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.more-alarm {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  top: -30px;
+  left: 40px;
+}
+
+.friend-icon-chat {
+  position: relative;
+}
+.chat-alarm {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2em;
+  bottom: 12px;
+  right: -10px;
+}

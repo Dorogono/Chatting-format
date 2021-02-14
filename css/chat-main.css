@@ -1,0 +1,73 @@
+.chat-nav-bot {
+  color: var(--white-color);
+}
+.chat-nav-bot-other {
+  color: var(--more-white);
+}
+.chat-nav-bot-other:hover {
+  color: var(--hover-color);
+}
+.chat-all-wrap {
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+
+.chat-top-nav-icon {
+  width: 200px;
+}
+.chat-profile {
+  margin-top: 50px;
+}
+.chat-profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.chat-profile-txt {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: space-around;
+  height: 50px;
+  width: 300px;
+}
+.chat-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.chat-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 50px;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.chat-info-time {
+  opacity: 0.5;
+}
+
+.chat-info-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.fa-comment-medical:hover {
+  color: var(--more-yellow);
+}

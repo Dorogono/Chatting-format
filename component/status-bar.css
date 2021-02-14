@@ -1,0 +1,47 @@
+@keyframes battery {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  50% {
+    color: rgb(255, 0, 0, 0.3);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+
+.status-bar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: 400;
+  position: fixed;
+  top: 0;
+  color: var(--white-color);
+  font-size: large;
+  padding-top: 5px;
+  height: 25px;
+  background-color: var(--brown-color);
+  box-sizing: border-box;
+}
+.status-bar_row {
+  width: 33%;
+}
+.wifi span {
+  margin-right: 10px;
+}
+.time {
+  display: flex;
+  justify-content: center;
+}
+.battery {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.battery i {
+  margin-left: 4px;
+}
+.battery-icon {
+  animation: battery 1.5s ease-in-out infinite;
+}

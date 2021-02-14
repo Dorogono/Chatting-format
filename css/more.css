@@ -1,0 +1,14 @@
+.more-nav-bot {
+  color: var(--white-color);
+}
+.more-bot-other {
+  color: var(--more-white);
+}
+.more-bot-other:hover {
+  color: var(--hover-color);
+}
+
+.more-all {
+  padding: 0 20px;
+  margin-bottom: 100px;
+}

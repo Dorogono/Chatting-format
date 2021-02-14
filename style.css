@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "font.css";
+@import "var.css";
+
+@import "component/status-bar.css";
+@import "component/profile.css";
+@import "component/nav.css";
+@import "component/friend-profile.css";
+@import "component/nav-bot.css";
+
+@import "css/log-in.css";
+@import "css/friend-content.css";
+@import "css/chat-main.css";
+@import "css/more.css";
+@import "css/something.css";
+
+body {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}

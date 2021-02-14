@@ -1,0 +1,46 @@
+.profile-big {
+  margin-top: 50px;
+}
+
+.profile-big a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.profile-mainpart {
+  display: flex;
+  align-items: center;
+}
+.profile-big-pic {
+  display: flex;
+  background-image: url("https://img2.thelist.com/img/gallery/the-truth-about-mary-elizabeth-winstead/mary-elizabeth-winstead-could-have-been-so-fetch-1571327889.jpg");
+  width: 100px;
+  height: 100px;
+  background-size: 200%;
+  background-position-x: center;
+  border-radius: 30px;
+  border: 3px solid var(--more-brown);
+}
+
+.profile-big-txt {
+  color: var(--white-color);
+  font-size: 1.8em;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.profile-sleep {
+  background-color: var(--more-yellow);
+  display: flex;
+  padding: 5px;
+
+  height: 15px;
+  color: var(--brown-color);
+  margin-right: 20px;
+}
+
+.profile-big:hover {
+  border-radius: 30px;
+  box-shadow: 0 0 50px 0 var(--white-color);
+}

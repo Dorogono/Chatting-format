@@ -1,0 +1,76 @@
+.friend-title-wrap {
+  display: flex;
+  margin-top: 80px;
+  color: var(--yellow-color);
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.friend-title {
+  font-size: 2.5em;
+  font-weight: 700;
+  width: 50%;
+}
+.friend-title_icon {
+  color: var(--white-color);
+  display: flex;
+
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes rotate-rec {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+.fa-cog:hover {
+  animation: rotate 0.6s linear infinite;
+  color: var(--more-yellow);
+}
+
+.fa-music:hover {
+  color: var(--more-yellow);
+  animation: heartbeat 0.5s ease-in-out infinite;
+}
+.friend-top_search:hover {
+  color: var(--more-yellow);
+  animation: rotate-rec 0.7s ease-in-out forwards;
+}
+
+.setting-alarm {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  top: -38px;
+  left: 35px;
+}
+
+.setting a {
+  color: var(--white-color);
+}

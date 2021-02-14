@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-in</title>
+    <style>
+      @import "style.css";
+      @import "font.css";
+      body {
+        font-family: "Cinzel Decorative", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_row wifi">
+        <span>No Service</span><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_row time">
+        <span>26:78</span>
+      </div>
+      <div class="status-bar_row battery">
+        <span>10%</span><i class="fas fa-battery-quarter fa-lg battery-icon"></i
+        ><i class="fas fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <div class="log-in_content-wrap">
+      <div class="log-in_title-wrap">
+        <div class="log-in_title">Welcome</div>
+        <div class="log-in_title-mid">to</div>
+        <div class="log-in_title">dreamtalk</div>
+      </div>
+
+      <form id="log-in_form" action="friend.html">
+        <input
+          type="text"
+          required
+          placeholder="What is Your Name?"
+          class="log-in_main"
+        />
+
+        <input type="submit" value="Enter" class="log-in_submit" />
+        <a href="#" class="log-in_find">You don't know what's your name?</a>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
