@@ -14,11 +14,15 @@
   justify-content: flex-end;
 }
 
-.setting-column:nth-child(2) {
+.first-chat-screen {
   text-align: center;
   position: relative;
   left: -25px;
 }
+.setting-column:nth-child(2) {
+  text-align: center;
+}
+
 .screen-icon2 {
   margin-left: 15px;
 }
@@ -207,4 +211,8 @@
 .text-bar:focus-within input {
   width: 98vw;
   transform: translateX(-5%);
+}
+
+.chat-txt-number {
+  color: red;
 }

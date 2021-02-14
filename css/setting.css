@@ -59,3 +59,39 @@
 .setting-column span:last-child {
   margin-left: 10px;
 }
+
+.lab-new {
+  margin-left: 40px;
+  color: var(--white-color);
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+@keyframes new-thing {
+  0% {
+    transform: translateZ(0) rotateY(0);
+  }
+  25% {
+    transform: translateZ(160px) rotateY(180deg);
+  }
+  50% {
+    transform: translateZ(0) rotateY(0);
+  }
+  75% {
+    transform: translateZ(160px) rotateY(180deg);
+  }
+  100% {
+    transform: translateZ(0) rotateY(0);
+  }
+}
+
+.menu-list:nth-child(2):hover .lab-new {
+  animation: new-thing 3s ease-in-out infinite;
+}
