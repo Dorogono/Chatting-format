@@ -145,7 +145,6 @@
   top: 0;
   animation: welcome 1s ease-in-out forwards;
   animation-delay: 2s;
-  visibility: hidden;
 }
 
 .welcome,
